@@ -24,6 +24,13 @@ def mtf_algorithm(config_list, request_sequence):
 
 config_list = [0, 1, 2, 3, 4]
 request_sequence = [0, 1, 2, 3, 4] * 4
+request_seguence_2 = [4, 3, 2, 1, 0, 1, 2, 3, 4, 3, 2, 1, 0, 1, 2, 3, 4]
 
 # Ejecutar el algoritmo
+print("Ejecución del algoritmo MTF para el primer inciso\n")
+
 mtf_algorithm(config_list, request_sequence)
+
+print("\nEjecución del algoritmo MTF para el segundo inciso\n")
+
+mtf_algorithm(config_list, request_seguence_2)
