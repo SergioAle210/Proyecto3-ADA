@@ -6,7 +6,7 @@ def mtf_algorithm(config_list, request_sequence):
     print("\nProcesando solicitudes...\n")
     for req in request_sequence:
         index = config.index(req)
-        cost = index + 1
+        cost = 2 * index + 1
         total_cost += cost
 
         print(
@@ -29,7 +29,6 @@ request_sequence_3 = [0] * 20
 request_sequence_4 = [4, 3, 2, 1, 0] * 4
 sequence_2s = [2] * 20
 sequence_3s = [3] * 20
-sequence_4s = [4] * 20
 
 # Ejecutar el algoritmo
 print("Ejecución del algoritmo MTF para el primer inciso\n")
