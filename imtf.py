@@ -33,8 +33,8 @@ config_list = [0, 1, 2, 3, 4]
 request_sequence = [0] * 20
 request_sequence_2 = [4, 3, 2, 1, 0] * 4
 
-print("Ejecución del algoritmo IMTF para el primer inciso\n")
+print("Ejecución del algoritmo IMTF para el mejor de los casos\n")
 imtf_algorithm(config_list, request_sequence)
 
-print("\nEjecución del algoritmo IMTF para el segundo inciso\n")
+print("\nEjecución del algoritmo IMTF para el peor de los casos\n")
 imtf_algorithm(config_list, request_sequence_2)
